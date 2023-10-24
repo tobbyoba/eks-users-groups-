@@ -1,4 +1,4 @@
-#res
+
 resource "aws_iam_user_login_profile" "Admin_user" {
   count                   = length(var.admins)
   user                    = aws_iam_user.admin_users[count.index].name

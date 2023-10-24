@@ -6,5 +6,5 @@ variable "admins" {
 
 variable "developers" {
   type = list(any)
-#
+
 }
